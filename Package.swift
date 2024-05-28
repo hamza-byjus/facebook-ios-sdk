@@ -134,7 +134,7 @@ extension Target {
     }
 
     static func remoteBinaryURLString(for targetName: String) -> String {
-        "https://github.com/facebook/facebook-ios-sdk/releases/download/v16.3.1/\(targetName)-Static_XCFramework.zip"
+        "https://github.com/hamza-byjus/facebook-ios-sdk/releases/download/v16.3.1/\(targetName)-Static_XCFramework.zip"
     }
 
     static let aem = target(name: .aem, dependencies: [.Prefixed.aem])
